@@ -1,0 +1,14 @@
+basePath: /api/vms/v1
+host: localhost:8080
+info:
+  contact: {}
+  description: Documentation api for VMS pindad
+  title: Visitor Management System App
+  version: 1.0.0
+paths: {}
+securityDefinitions:
+  api_key:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
